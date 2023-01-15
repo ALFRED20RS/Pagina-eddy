@@ -13,7 +13,7 @@ body{
 	
 /*-------------------------------*/	
 /*-------------------------------*/	
-/*--CABEZOTE--*/
+/*--CABECERA--*/
 	
 header{
 	position:relative;
@@ -31,7 +31,7 @@ header{
 	height:100px;
 	}
 	
-/*--FIN CABEZOTE--*/
+/*--FIN CABECERA--*/
 /*-------------------------------*/	
 /*-------------------------------*/
 /*--BARRA DE NAVEGACIÓN--*/
@@ -69,7 +69,7 @@ nav ul li a{
 /*-------------------------------*/
 /*--SLIDE--*/
 
-#kiko-slider{
+#Ls-slider{
 	font-family: sans-serif;
 	margin: auto;
 	background-color: white;
@@ -79,13 +79,13 @@ nav ul li a{
 	height: 720px
   }
   
-  #kiko-slider > ul, li {
+  #Ls-slider > ul, li {
 	  padding: 0;
 	  margin: 0;
 	  list-style: none;
   }
   
-  #kiko-slider > ul.slider{
+  #Ls-slider > ul.slider{
 	position: relative;
 	max-width: 1000px;
 	width: 100%;
@@ -93,22 +93,22 @@ nav ul li a{
   }
   
   
-  #kiko-slider > ul.slider li {
+  #Ls-slider > ul.slider li {
 	  position: absolute;
 	  left: 0px;
 	  top: 0px;
 	  opacity: 0;
 	  width: inherit;
 	  height: inherit;
-	  transition: opacity .5s;
+	  transition: opacity .2s;
 	  background:#fff;
-	  -webkit-transition: opacity .5s;
-	  -moz-transition: opacity .5s;
-	  -ms-transition: opacity .5s;
-	  -o-transition: opacity .5s;
+	  -webkit-transition: opacity .2s;
+	  -moz-transition: opacity .2s;
+	  -ms-transition: opacity .2s;
+	  -o-transition: opacity .2s;
 }
   
-  #kiko-slider > ul.slider li img{
+  #Ls-slider > ul.slider li img{
 	width: 100%;
 	height: 680px;
 	object-fit: cover;
@@ -119,11 +119,11 @@ nav ul li a{
 	-o-border-radius: 5%;
 }
   
-  #kiko-slider > ul.slider li:first-child {
+  #Ls-slider > ul.slider li:first-child {
 	  opacity: 1; /*Mostramos el primer <li>*/
   }
   
-  #kiko-slider > ul.slider li:target {
+  #Ls-slider > ul.slider li:target {
 	  opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
   }
 /*--FIN SLIDE--*/
